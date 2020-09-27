@@ -25,7 +25,7 @@ static void thread1_entry(void *parameter)
 
     while (1)
     {
-//        rt_kprintf("thread1 count: %d\n", count ++);
+        rt_kprintf("thread1 count: %d\n", count ++);
         rt_thread_mdelay(500);
     }
 }
