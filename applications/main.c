@@ -34,6 +34,7 @@ int main(void)
 //                rt_thread_mdelay(1000);
 //    }
     //GIT TEST
+    //test -- ok
     thread_sample();
     return RT_EOK;
 }
